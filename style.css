@@ -44,7 +44,7 @@ body {
     user-select: none;
     z-index: 2;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centers the text */
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds a strong shadow to make the text stand out */
