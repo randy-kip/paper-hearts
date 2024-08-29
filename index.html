@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Path to Your Heart ❤️</title>
     <link
       rel="stylesheet"
@@ -13,7 +13,10 @@
   <body>
     <!-- partial:index.partial.html -->
 
-    <div class="paper heart">
+    <div
+      class="paper heart"
+      onclick="window.location.href='https://be-mine-pi.vercel.app/'"
+    >
       <p class="heart-message">Ready for more?</p>
     </div>
 
@@ -52,12 +55,12 @@
     <script src="./script.js"></script>
 
     <script>
-        // Conditionally load mobile.js if the device supports touch
-        if ('ontouchstart' in window || navigator.maxTouchPoints) {
-            const script = document.createElement('script');
-            script.src = './mobile.js';
-            document.body.appendChild(script);
-        }
+      // Conditionally load mobile.js if the device supports touch
+      if ("ontouchstart" in window || navigator.maxTouchPoints) {
+        const script = document.createElement("script");
+        script.src = "./mobile.js";
+        document.body.appendChild(script);
+      }
     </script>
   </body>
 </html>
